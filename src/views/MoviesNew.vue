@@ -23,7 +23,8 @@
 
       <div class="form-group">
         <label>Plot:</label>
-        <input type="text" class="form-control" v-model="plot">
+        <input type="text" class="form-control" v-model="plot"> <br>
+        <small>{{ 250 - plot.length }} characters remaining</small>
       </div>
 
       <div class="form-group">
